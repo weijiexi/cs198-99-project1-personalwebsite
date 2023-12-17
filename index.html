@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Weijie Xi' Website & Portfolio</title>
+        <meta name="Author" content="Weijie Xi"/>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This is Weijie's website & Portfolio.">
+        <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="wrapper">
+
+            <! --here is header -->
+            <header>
+                
+                <h2 class="logo">Weijie Xi</h2>
+                
+                <div class="nav">
+                     <nav>
+                        <ul class="main-nav">
+                            <li><a href="UX_Portfolio.html">UX Portfolio</a></li>
+                            <li><a href="#">Coding &amp; Motion</a></li>
+                            <li><a href="#">Art</a></li>
+                            <li><a href="#">About Me</a></li>
+                        </ul>
+                     </nav>
+                </div> 
+            </header>
+
+            <! -- here is main -->
+            <main>
+                <! -- showcase -->
+                <div class="showcase" >
+                     <img class="display-1" src="images/display-1.png" alt="###">
+                     <img class="display-2" src="images/display-2.png" alt="###">
+                     <img class="display-3" src="images/display-3.png" alt="###">
+                     <img class="display-4" src="images/display-4.png" alt="###">
+                     <img class="display-5" src="images/display-5.png" alt="###">
+                     <img class="display-6" src="images/display-6.png" alt="###">
+                </div>
+                
+                <div class="line">
+                     <hr class="line-1"  size=1 style="color: #666666; border-style:dotted;">
+                </div>
+              
+                <div class="photo">
+                     <img class="photome" src="images/me.png" alt="Weijie Xi Photo">
+                </div>
+                            
+                <div class="intro">
+                <div> 
+                        <div class="experience">
+                            <p>My goal for many years was to become an interaction &amp; UX designer, a digital artist. I love creative coding and have a huge passion for the combination of art, design, and technology.
+                            </p>
+                            <p>My goal for many years was to become an interaction &amp; UX designer, a digital artist. I love creative coding and have a huge passion for the combination of art, design, and technology.
+                            </p>
+                             <p>
+                                Follow me on <a href="https://www.instagram.com/weijie_xi"><strong><font color="#6C49A9">Instagram</font></strong></a>, and connect me on <a href="https://www.linkedin.com/in/weijie-xi-76469a27a/"><strong><font color="#6C49A9">LinkedIn</font></strong></a><br>                                            
+                                Learn more about my artworks please see: <a href="https://www.weijie-xi.com"><strong><font color="#6C49A9">www.weijie-xi.com</font></strong> </a><br>
+                                Learn more about ON SPACE please see: <a href="www.onspace.top"><strong><font color="#6C49A9">www.onspace.top</font></strong> </a><br>
+                             </p>
+                        </div>
+
+                 </div>                     
+
+                <div class="contact">
+                    <form action="/my-handling-form-page" method="post" id="myForm">
+                        <ul>
+                        <li>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="user_name" />
+                        </li>
+                        <li>
+                            <label for="mail">E-mail:</label>
+                            <input type="email" id="mail" name="user_email" />
+                        </li>
+                        <li>
+                            <label for="msg">Message:</label>
+                            <textarea id="messageInput" name="user_message"></textarea>
+                        </li>
+                        </ul>
+                        <!-- <li class="button"> -->
+                            <button id = "sendMessage" type="submit">Send your message</button>
+                        <!-- </li> -->
+                    </form>
+                </div>  
+                <div class="message-board">
+                    <!-- <h2>Message Board</h2> -->
+                    <div id="messages">
+                        <!-- Messages will be displayed here -->
+                    </div>
+                    
+                </div>  
+            </main>
+
+            <! --here is footer -->
+            <footer class="footer"> 
+                <div class="copyright">
+                    &copy; 2023 by weijie xi. all right reserved
+                </div>
+                
+            </footer>
+            
+        </div>
+        <script src="./messageAdmin.js"></script>
+    </body>
+</html>
